@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Playfair Display";
+  src: local("Playfair Display Regular"), local("playfair-display-regular"),
+    url("font/PlayfairDisplay-Regular.ttf") format("ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto Regular"), local("Roboto-Regular"),
+    url("font/Roboto-Regular.ttf") format("ttf");
+  font-weight: normal;
+}
+
+.playfair-display {
+  font-family: "Playfair Display", serif;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.mod-header {
+  font-weight: 600;
+  font-size: 86px;
+}
+
+.navbar {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.mod-title {
+  font-weight: 500;
+  font-size: 86px;
+}
+
+.mod-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+}
