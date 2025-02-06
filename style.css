@@ -74,11 +74,15 @@ nav {
   font-size: 18px;
 }
 
-#section-biography q {
+q {
   font-family: "Bitter", serif;
   font-size: 26px;
 }
 
-#section-designers article {
+.bold {
   font-weight: 700;
+}
+
+.upper {
+  text-transform: uppercase;
 }
