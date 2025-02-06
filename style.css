@@ -1,8 +1,8 @@
-@font-face {
-  font-family: "Bitter";
+/* @font-face {
+  font-family: Bitter;
   src: local("Bitter"), url("font/Bitter-Regular.ttf") format("ttf");
   font-weight: normal;
-}
+} */
 
 /* @font-face {
   font-family: "Playfair Display";
@@ -12,7 +12,7 @@
 } */
 
 @font-face {
-  font-family: "Roboto";
+  font-family: Roboto;
   src: local("Roboto"), url("font/Roboto-Regular.ttf") format("ttf");
   font-weight: normal;
 }
@@ -32,30 +32,45 @@
   font-family: "Playfair Display", serif;
 }
 
-.font-playfair-display {
-  font-family: "Playfair Display", serif;
-}
-
 .font-roboto {
   font-family: "Roboto", sans-serif;
 }
 
-.mod-header {
+h1 {
   font-weight: 600;
   font-size: 86px;
 }
 
-.navbar {
+h2 {
   font-weight: 500;
+  font-size: 86px;
+}
+
+h3 {
+  font-weight: 700;
   font-size: 24px;
 }
 
-.mod-title {
+.nav-link-items {
   font-weight: 500;
-  font-size: 86px;
+  font-size: 24px;
 }
 
 .mod-subtitle {
   font-weight: 500;
   font-size: 20px;
+}
+
+.mills-subtitle {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+#section-biography q {
+  font-family: "Bitter", serif;
+  font-size: 26px;
+}
+
+#section-designers article {
+  font-weight: 700;
 }
