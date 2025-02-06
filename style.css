@@ -1,22 +1,21 @@
-@font-face {
+/* @font-face {
   font-family: "Playfair Display";
-  src: local("Playfair Display Regular"), local("playfair-display-regular"),
+  src: local("Playfair Display"), local("playfair-display"),
     url("font/PlayfairDisplay-Regular.ttf") format("ttf");
   font-weight: normal;
-}
+} */
 
 @font-face {
   font-family: "Roboto";
-  src: local("Roboto Regular"), local("Roboto-Regular"),
-    url("font/Roboto-Regular.ttf") format("ttf");
+  src: local("Roboto"), url("font/Roboto-Regular.ttf") format("ttf");
   font-weight: normal;
 }
 
-.playfair-display {
+.font-playfair-display {
   font-family: "Playfair Display", serif;
 }
 
-.roboto {
+.font-roboto {
   font-family: "Roboto", sans-serif;
 }
 
