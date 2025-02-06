@@ -51,17 +51,17 @@ h3 {
   font-size: 24px;
 }
 
-.nav-link-items {
-  font-weight: 500;
-  font-size: 24px;
-}
+nav {
+  a {
+    font-weight: 500;
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+  }
 
-li a {
-  text-decoration: none;
-}
-
-li.nav-link-active a {
-  text-decoration: underline;
+  .nav-link-active a {
+    text-decoration: underline;
+  }
 }
 
 .mod-subtitle {
