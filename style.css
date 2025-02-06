@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Bitter";
+  src: local("Bitter"), url("font/Bitter-Regular.ttf") format("ttf");
+  font-weight: normal;
+}
+
 /* @font-face {
   font-family: "Playfair Display";
   src: local("Playfair Display"), local("playfair-display"),
@@ -14,7 +20,16 @@
 * {
   font-family: Roboto, sans-serif;
   font-size: 16px;
+  font-weight: 400;
   line-height: 20px;
+}
+
+.font-bitter {
+  font-family: "Bitter", serif;
+}
+
+.font-playfair-display {
+  font-family: "Playfair Display", serif;
 }
 
 .font-playfair-display {
