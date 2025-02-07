@@ -69,6 +69,14 @@ q {
   font-size: 26px;
 }
 
+.bold {
+  font-weight: 700;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
 .mod-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -89,10 +97,16 @@ q {
   font-size: 34px;
 }
 
-.bold {
-  font-weight: 700;
+.footer-contacts {
+  line-height: 26px;
 }
 
-.upper {
-  text-transform: uppercase;
+.footer-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.09px;
+}
+
+.footer-copyright {
+  line-height: 18.75px;
 }
