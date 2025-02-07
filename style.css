@@ -64,6 +64,11 @@ nav {
   }
 }
 
+q {
+  font-family: "Bitter", serif;
+  font-size: 26px;
+}
+
 .mod-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -74,9 +79,10 @@ nav {
   font-size: 18px;
 }
 
-q {
+.testimonials-subtitle {
   font-family: "Bitter", serif;
-  font-size: 26px;
+  font-weight: 400;
+  font-size: 32px;
 }
 
 .bold {
