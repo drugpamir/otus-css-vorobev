@@ -18,10 +18,12 @@
 }
 
 * {
+  box-sizing: border-box;
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.2;
+  margin: 0;
 }
 
 .font-bitter {
@@ -53,6 +55,14 @@ h3 {
   line-height: 28.13px;
 }
 
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  margin: 28px 0px;
+  gap: 60px;
+  list-style-type: none;
+}
+
 .nav-link {
   font-weight: 500;
   font-size: 24px;
@@ -61,7 +71,7 @@ h3 {
   text-decoration: none;
 }
 
-.nav-link-active {
+.nav-link:hover {
   text-decoration: underline;
 }
 
