@@ -1,0 +1,146 @@
+/* @font-face {
+  font-family: Bitter;
+  src: local("Bitter"), url("font/Bitter-Regular.ttf") format("ttf");
+  font-weight: normal;
+} */
+
+/* @font-face {
+  font-family: "Playfair Display";
+  src: local("Playfair Display"), local("playfair-display"),
+    url("font/PlayfairDisplay-Regular.ttf") format("ttf");
+  font-weight: normal;
+} */
+
+@font-face {
+  font-family: Roboto;
+  src: local("Roboto"), url("font/Roboto-Regular.ttf") format("ttf");
+  font-weight: normal;
+}
+
+* {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.font-bitter {
+  font-family: "Bitter", serif;
+}
+
+.font-playfair-display {
+  font-family: "Playfair Display", serif;
+}
+
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 86px;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  font-size: 86px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.13px;
+}
+
+nav {
+  a {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28.13px;
+    color: black;
+    text-decoration: none;
+  }
+
+  .nav-link-active a {
+    text-decoration: underline;
+  }
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.black {
+  font-weight: 900;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.mod-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24.44px;
+}
+
+.mills-title {
+  line-height: 114.64px;
+}
+
+.mills-subtitle {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.09px;
+}
+
+.mills-quote {
+  font-family: "Bitter", serif;
+  font-size: 26px;
+}
+
+.designers p {
+  line-height: 18.75px;
+}
+
+.testimonials-list {
+  p,
+  a {
+    line-height: 18.75px;
+  }
+}
+
+.testimonials-subtitle {
+  font-family: "Bitter", serif;
+  font-size: 32px;
+}
+
+.strengths-title {
+  line-height: 86px;
+}
+
+.strengths-list li {
+  font-family: "Bitter", serif;
+  font-size: 34px;
+}
+
+.footer-contacts a {
+  line-height: 26px;
+}
+
+.footer-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.09px;
+}
+
+.footer-mod {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 28.13px;
+}
+
+.footer-copyright {
+  line-height: 18.75px;
+}
