@@ -87,10 +87,44 @@ h3 {
   text-transform: uppercase;
 }
 
-.mod-subtitle {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24.44px;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1397px;
+  height: 135px;
+  margin-left: 23px;
+}
+
+#section-mod {
+  background-image: url("img/hero-mod-studio.jpg");
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 630px;
+  position: relative;
+
+  .mod-label {
+    background-color: white;
+    padding: 110px 20px 110px 20px;
+    text-align: center;
+    width: 690px;
+    height: 360px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+
+  .mod-title {
+    margin-bottom: 14px;
+  }
+
+  .mod-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24.44px;
+  }
 }
 
 .mills-title {
