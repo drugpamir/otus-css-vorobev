@@ -18,10 +18,12 @@
 }
 
 * {
+  box-sizing: border-box;
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.2;
+  margin: 0;
 }
 
 .font-bitter {
@@ -53,16 +55,12 @@ h3 {
   line-height: 28.13px;
 }
 
-.nav-link {
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 28.13px;
-  color: black;
-  text-decoration: none;
-}
-
-.nav-link-active {
-  text-decoration: underline;
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  margin: 28px 0px;
+  gap: 60px;
+  list-style-type: none;
 }
 
 .font-bold {
@@ -77,10 +75,55 @@ h3 {
   text-transform: uppercase;
 }
 
-.mod-subtitle {
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 135px;
+  margin: 0 20px 0 23px;
+}
+
+.nav-link {
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24.44px;
+  font-size: 24px;
+  line-height: 28.13px;
+  color: black;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+#section-mod {
+  background-image: url("img/hero-mod-studio.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 630px;
+  position: relative;
+
+  .mod-label {
+    background-color: white;
+    padding: 110px 20px 110px 20px;
+    text-align: center;
+    width: 690px;
+    height: 360px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+
+  .mod-title {
+    margin-bottom: 14px;
+  }
+
+  .mod-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24.44px;
+  }
 }
 
 .mills-title {
