@@ -75,6 +75,11 @@ h3 {
   text-transform: uppercase;
 }
 
+.text-vertical {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -134,23 +139,31 @@ header {
 #section-biography {
   max-width: 1165px;
   max-height: 840px;
-  margin: 0 auto;
+  margin: 151px auto 0;
   display: flex;
+  justify-content: space-between;
   align-items: flex-start;
 
   .biography-image {
-    max-width: fit-content;
-    height: auto;
+    max-width: 50%;
   }
 
   .biography-description {
-    /* flex-basis: 455px; */
     width: 455px;
-    /* height: 840px; */
+    height: 840px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 36px;
+  }
+
+  .biography-vertical {
+    /* align-self: self-start; */
   }
 
   .mills-title {
     line-height: 114.64px;
+    /* word-wrap: break-word; */
   }
 
   .mills-subtitle {
@@ -159,9 +172,20 @@ header {
     line-height: 21.09px;
   }
 
-  .mills-quote {
-    font-family: "Bitter", serif;
-    font-size: 26px;
+  .mills-quote-container {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
+    .mills-quote-rect {
+      width: 20px;
+      height: 6px;
+    }
+
+    .mills-quote-text {
+      font-family: "Bitter", serif;
+      font-size: 26px;
+    }
   }
 }
 
